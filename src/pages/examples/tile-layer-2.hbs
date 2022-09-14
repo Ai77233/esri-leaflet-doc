@@ -7,10 +7,10 @@ layout: example.hbs
 <div id="map"></div>
 
 <script>
-  var map = L.map('map').setView([19.31, -155.04], 9);
+  var map = L.map('map').setView([30.587276, 114.28744], 9);
 
   L.esri.tiledMapLayer({
-    url: 'https://services.arcgisonline.com/ArcGIS/rest/services/Specialty/World_Navigation_Charts/MapServer',
+    url: 'http://172.16.238.47:6080/arcgis/rest/services/BaseMap/DZDT_BLUE/MapServer',
     detectRetina: false,
     minZoom: 3,
     maxZoom: 10
